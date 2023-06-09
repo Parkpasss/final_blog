@@ -1,0 +1,257 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #efa9a9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#nav-bar a {
+  color: #efa9a9;
+  font-weight: bold;
+  text-decoration: none;
+  border-right: #efa9a9 1px solid;
+  padding-right: 40px;
+  padding-left: 30px;
+}
+
+#background {
+  background-image: url('./img/sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#background p {
+  margin: 0px;
+  padding-top: 300px;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: 0px 0px 3px #e49797;
+}
+
+#nav-bar > li:last-child > a {
+  border-right: none;
+}
+
+nav {
+  background-color: #fddeda;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#main {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  text-shadow: 0px 0px 5px #f9b2aa;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+}
+
+#update,
+#up_btn,
+#email {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#boxes {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#boxes .box img {
+  width: 280px;
+  height: 250px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 24%;
+  padding: 10px;
+}
+
+#boxes h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  background-color: #fdb9b9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+#nav-bar li a:hover {
+  color: rgb(181, 140, 140);
+}
+
+/* 여기부턴 about.html */
+
+#bareum {
+  border-radius: 50px;
+  height: 170px;
+  width: 170px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+#name {
+  color: rgb(239, 89, 114);
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+#content {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 17px;
+}
+
+#personal {
+  display: inline-block;
+  width: 450px;
+}
+
+#content #tmi {
+  display: inline-block;
+}
+
+#can {
+  background-image: url(./img/sky.jpg);
+  height: 100px;
+  margin: 50px 0px;
+}
+
+.tag {
+  margin-top: 20px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bolder;
+}
+
+.progress {
+  margin: 0px 50px 50px 50px;
+}
+
+#ability h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* 여기부턴 project.html */
+.project .col {
+  margin: 50px 30px;
+}
+
+.project .card {
+  padding: 0px;
+}
+
+.project {
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.card-header {
+  font-size: 40px;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card-group {
+  width: 80%;
+  margin: 50px 10% 70px 10%;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.project ul > li:hover {
+  font-weight: bold;
+}
+
+#result {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-top: 50px;
+}
+
+/* 여기부터는 contact.html */
+
+#contact {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#contact img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.link {
+  float: right;
+  padding-top: 50px;
+}
+
+#contact .container h1 {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.copy {
+  background-color: #f8bfbf;
+  border: #e49797 2px solid;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  text-shadow: #e49797 0px 0px 4px;
+}
+
+#contact .container {
+  margin-bottom: 40px;
+  border-bottom: #f8bfbf 2px solid;
+}
+
+#contact .container:last-child {
+  border: none;
+}
+
+.copy:hover {
+  background-color: #fb9b9b;
+  border: #f77e7e 2px solid;
+}
+
+.mode_ch {
+  font-size: 30px;
+  margin-left: 44%;
+  color: #644343;
+}
