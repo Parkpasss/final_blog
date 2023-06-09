@@ -17,12 +17,12 @@ function imgClick(e) {
 function ComClick(e) {
   const com = e.target
   com.classList.toggle('now')
+  com.classList.toggle('finish')
+
   if (com.classList.contains('finish')) {
-    com.style.textDecorationLine = 'none'
-    com.classList.toggle('finish')
-  } else {
     com.style.textDecorationLine = 'line-through'
-    com.classList.toggle('finish')
+  } else {
+    com.style.textDecorationLine = 'none'
   }
 }
 
