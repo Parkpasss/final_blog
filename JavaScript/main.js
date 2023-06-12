@@ -24,7 +24,9 @@ function ComClick(event) {
   }
 }
 
-const complete = document.querySelectorAll('.complete')
-complete.forEach((item) => {
-  item.addEventListener('click', ComClick)
+document.addEventListener('DOMContentLoaded', function () {
+  const complete = document.querySelectorAll('.complete')
+  complete.forEach((item) => {
+    item.addEventListener('click', ComClick)
+  })
 })
