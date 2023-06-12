@@ -20,7 +20,9 @@ function ComClick(event) {
   com.classList.toggle('finish')
   if (com.classList.contains('finish')) {
     com.style.textDecoration = 'line-through'
+    console.log('에러 체크 완')
   } else {
     com.style.textDecoration = 'none'
+    console.log('에러 왜지')
   }
 }
