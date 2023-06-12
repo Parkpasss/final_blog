@@ -3,7 +3,7 @@ const $now = document.getElementsByClassName('now')
 const current = document.getElementById('current')
 const imgs = document.querySelectorAll('.imgs img')
 
-complete.forEach((complete) => complete.addEventListener('click', ComClick))
+complete.forEach((item) => item.addEventListener('click', ComClick))
 imgs.forEach((img) => img.addEventListener('click', imgClick))
 
 function imgClick(e) {
